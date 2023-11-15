@@ -1,0 +1,41 @@
+.color-picker {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .inner-box {
+    background: white;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 180px;
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .color-button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+    margin: 5px; /* Add margin to create space between the color buttons */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  }
+  .text-container {
+    margin-top: 10px;
+    background: rgb(6, 183, 6);
+    padding: 10px;
+    border-radius: 0px;
+  }
+  
+  .text {
+    text-align: center;
+    margin: 0;
+    color: white;
+  }
